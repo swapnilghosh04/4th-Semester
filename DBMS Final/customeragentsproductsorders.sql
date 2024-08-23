@@ -41,6 +41,7 @@ insert into Orders values(8, 'July', 5, 5, 6, 1, 58000);
 select * from Orders;
 
 
+#Q2
 #Get the name of the agents with a name beginning with the letter 'N' who does not place orders for any product in 'Barasat'.
 select aname from Agents where aname like 'N%' and aid in (select aid from Orders where pid not in (select pid from Products where p_city='Barasat'));
 
