@@ -89,3 +89,4 @@ select NAME from STUDENTS where SID in (select SID from TAKE where C_NO = (selec
 select PROFESSOR.NAME from PROFESSOR, TEACH, COURSE where PROFESSOR.PID=TEACH.PID and COURSE.C_NO=TEACH.C_NO and PROFESSOR.POSITION='HOD' group by PROFESSOR.PID, PROFESSOR.NAME order by count(TEACH.C_NO) desc limit 1;
 
 
+
