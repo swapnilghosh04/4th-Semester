@@ -27,7 +27,7 @@ insert into Products values(2, 'Microwave', 'Barasat', 20, 23000);
 insert into Products values(3, 'Television', 'Barasat', 30, 34000);
 insert into Products values(4, 'Refrigerator', 'Howrah', 30, 42000);
 insert into Products values(5, 'Tablet', 'Howrah', 40, 44000);
-insert into Products values(6, 'Cellphone', 'Howrah', 50, 58000);
+insert into Products values(6, 'CelAlphone', 'Howrah', 50, 58000);
 select * from Products;
 
 insert into Orders values(1, 'January', 1, 1, 1, 1, 23000);
